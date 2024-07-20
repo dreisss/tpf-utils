@@ -1,0 +1,12 @@
+winget install --id=Adobe.Acrobat.Reader.64-bit -e  ;
+winget install --id=AnyDeskSoftwareGmbH.AnyDesk -e  ;
+winget install --id=CPUID.CPU-Z -e  ;
+winget install --id=CrystalDewWorld.CrystalDiskInfo -e  ;
+winget install --id=CrystalDewWorld.CrystalDiskMark -e  ;
+winget install --id=Figma.Figma  -e
+winget install --id=Google.Chrome -e  ;
+winget install --id=Helix.Helix -e  ;
+winget install --id=Nvidia.GeForceExperience -e;
+winget install --id=RARLab.WinRAR -e  ;
+winget install --id=TechPowerUp.GPU-Z -e;
+winget install --id=VideoLAN.VLC -e  ;
