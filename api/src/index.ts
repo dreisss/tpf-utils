@@ -1,5 +1,7 @@
 import { Elysia } from 'elysia'
 
-export const app = new Elysia().get('/', () => 'Hello Elysia').listen(process.env.PORT as string)
+import { stockItemsRoutes } from './routes/stock-items'
+
+export const app = new Elysia().use(stockItemsRoutes).listen(process.env.PORT as string)
 
 console.log(`🦊 Elysia is running at ${process.env.BASE_URL}`)
