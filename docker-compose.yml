@@ -8,7 +8,7 @@ services:
       - POSTGRES_PASSWORD=docker
       - POSTGRES_DB=tpfapi
     volumes:
-      - polls_pg_data:/postgres
+      - tpfapi_pg_data:/postgres
 
 volumes:
-  polls_pg_data:
+  tpfapi_pg_data:
