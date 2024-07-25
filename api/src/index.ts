@@ -1,6 +1,6 @@
-import { Elysia } from 'elysia'
-import { swagger } from '@elysiajs/swagger'
 import { cors } from '@elysiajs/cors'
+import { swagger } from '@elysiajs/swagger'
+import { Elysia } from 'elysia'
 
 const corsPlugin = cors({
   origin: '*',
