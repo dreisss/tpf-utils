@@ -6,7 +6,11 @@
     "db:migrate": "pnpm drizzle-kit generate"
   },
   "dependencies": {
+    "@elysiajs/cors": "^1.1.0",
+    "@elysiajs/eden": "^1.1.2",
+    "@elysiajs/swagger": "^1.1.0",
     "drizzle-orm": "^0.32.1",
+    "drizzle-typebox": "^0.1.1",
     "elysia": "latest",
     "postgres": "^3.4.4"
   },
