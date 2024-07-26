@@ -7,7 +7,7 @@ export const users = pgTable('users', {
   ...idColumn,
   ...upsertAtColumns,
   employeeId: uuid('employee_id').references((): AnyPgColumn => employees.id),
-  username: varchar('username').notNull(),
+  username: varchar('username').notNull().unique(),
   passwordHash: varchar('password_hash', { length: 256 }).notNull(),
 })
 

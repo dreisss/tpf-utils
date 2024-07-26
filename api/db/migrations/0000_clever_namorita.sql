@@ -10,7 +10,8 @@ CREATE TABLE IF NOT EXISTS "users" (
 	"updated_at" timestamp DEFAULT now() NOT NULL,
 	"employee_id" uuid,
 	"username" varchar NOT NULL,
-	"password_hash" varchar(256) NOT NULL
+	"password_hash" varchar(256) NOT NULL,
+	CONSTRAINT "users_username_unique" UNIQUE("username")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "employees" (

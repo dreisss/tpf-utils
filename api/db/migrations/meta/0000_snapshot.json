@@ -1,5 +1,5 @@
 {
-  "id": "c67d7c1b-8161-4892-9970-44dc3a664c03",
+  "id": "a34a5662-7af2-4d43-a439-a2a6444f9c89",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -107,7 +107,15 @@
         }
       },
       "compositePrimaryKeys": {},
-      "uniqueConstraints": {}
+      "uniqueConstraints": {
+        "users_username_unique": {
+          "name": "users_username_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "username"
+          ]
+        }
+      }
     },
     "public.employees": {
       "name": "employees",
